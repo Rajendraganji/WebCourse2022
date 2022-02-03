@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--includimg jquery to do validations-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Including the external javascript file-->
+    <script src="JavaScript/RockPaperScissorLogic.js"></script>
+    <!--including bootstrap-->
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap/bootstrap.min.css">
+    <!--Including the CSS file-->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body class="container-fluid">
+    <br>
+    <br>
+    <center><h2 id="backgroundcolor"><i>  Rock-Paper-Scissor Game . Let's Play</i></h2></center>
+    <br>
+    <div class="row" id="content">         
+
+        <!--Following is the bootstrap classes
+        "img-fluid" class is a property that tells the browser not to expand the  image larger 
+        than its  original size.
+        -->
+        <!-- Paper image -->
+        <div class="col-md-4">
+            <button id="paper" class="btn">
+                <img src="paper.png" alt="paper" class="img-fluid">
+            </button>
+        </div>
+        <!-- Rock image -->
+        <div class="col-md-4">
+            <button id="rock" class="btn">
+                <img src="rock.png" alt="rock" class="img-fluid">
+            </button>
+        </div>
+        <!-- Scissor image -->
+        <div class="col-md-4">
+            <button id="scissors" class="btn">
+                <img src="scissors.png" alt="scissors" class="img-fluid">
+            </button>
+        </div>
+        
+    </div>
+    <!--This div id is to show the output of the selection player have made-->
+    <br>
+    <br>
+    <div>
+        <h1 id="output"></h1>
+    </div>
+</body>
+</html>

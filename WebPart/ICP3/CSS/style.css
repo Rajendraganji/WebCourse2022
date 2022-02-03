@@ -1,0 +1,20 @@
+img {
+    height: 36%;
+    width: 36%;
+}
+
+h1{
+    text-align: center;
+    color: gold;    
+}
+backgroundcolor{
+   color: red;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+
+body {
+   background-color:rgb(240, 255, 247);
+}
