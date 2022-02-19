@@ -1,0 +1,35 @@
+#timer {
+    margin-top: 5%;
+    background: transparent;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px double rgb(61, 17, 216);
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  
+  input {
+    background: transparent;
+    text-align: center;
+    border: 2px double rgb(0, 2, 8);
+    outline: none;
+    border-radius: 20px;
+    padding: 4px 20px;
+    font-size: 24px;
+    width: 400px;
+    color: rgb(150, 16, 16)
+  }
+  
+  .countdown {
+    font-size: 45px;
+    height: 100px;
+    color: rgb(88, 109, 13);
+  }
+  
+  #seconds {
+    color: #3d2577;
+  }
