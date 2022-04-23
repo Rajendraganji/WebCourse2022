@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         if(status==TextToSpeech.SUCCESS){
                             int result =textToSpeech.setLanguage(Locale.ENGLISH);
                         if(result==TextToSpeech.LANG_NOT_SUPPORTED || result == TextToSpeech.LANG_MISSING_DATA){
-                            Log.e("message","language is not supported");
+                            Log.e("message","language not supported");
                         }
                         else{
                             textToSpeech.speak(String.valueOf(editText.getText()),TextToSpeech.QUEUE_ADD, null);
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                         }
                         else{
-                            Log.e("message","TT's are not supporting");
+                            Log.e("message","TT's not supporting");
                         }
                     }
                 });
